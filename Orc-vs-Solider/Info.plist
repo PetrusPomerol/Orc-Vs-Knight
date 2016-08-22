@@ -42,5 +42,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string></string>
+	</array>
 </dict>
 </plist>

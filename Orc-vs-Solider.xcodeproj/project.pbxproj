@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0D8A671D62BDC9000D57D6 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D8A661D62BDC9000D57D6 /* Minecraft.ttf */; };
+		5A5B7A7E1D63D4CB00F7B816 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B7A7D1D63D4CB00F7B816 /* Character.swift */; };
+		5ABFAD121D694B0D00112129 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABFAD111D694B0D00112129 /* Player.swift */; };
+		5ACBA3911D65102000FED55B /* TheFightMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5ACBA3901D65102000FED55B /* TheFightMusic.mp3 */; };
 		5AE084141D61584100687B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE084131D61584100687B6F /* AppDelegate.swift */; };
 		5AE084161D61584100687B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE084151D61584100687B6F /* ViewController.swift */; };
 		5AE084191D61584100687B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE084171D61584100687B6F /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A0D8A661D62BDC9000D57D6 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		5A5B7A7D1D63D4CB00F7B816 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		5ABFAD111D694B0D00112129 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5ACBA3901D65102000FED55B /* TheFightMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TheFightMusic.mp3; path = ../TheFightMusic.mp3; sourceTree = "<group>"; };
 		5AE084101D61584100687B6F /* Orc-vs-Solider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orc-vs-Solider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE084131D61584100687B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE084151D61584100687B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +62,16 @@
 		5AE084121D61584100687B6F /* Orc-vs-Solider */ = {
 			isa = PBXGroup;
 			children = (
+				5ACBA3901D65102000FED55B /* TheFightMusic.mp3 */,
+				5A0D8A661D62BDC9000D57D6 /* Minecraft.ttf */,
 				5AE084131D61584100687B6F /* AppDelegate.swift */,
 				5AE084151D61584100687B6F /* ViewController.swift */,
 				5AE084171D61584100687B6F /* Main.storyboard */,
 				5AE0841A1D61584100687B6F /* Assets.xcassets */,
 				5AE0841C1D61584100687B6F /* LaunchScreen.storyboard */,
 				5AE0841F1D61584100687B6F /* Info.plist */,
+				5A5B7A7D1D63D4CB00F7B816 /* Character.swift */,
+				5ABFAD111D694B0D00112129 /* Player.swift */,
 			);
 			path = "Orc-vs-Solider";
 			sourceTree = "<group>";
@@ -124,7 +136,9 @@
 			files = (
 				5AE0841E1D61584100687B6F /* LaunchScreen.storyboard in Resources */,
 				5AE0841B1D61584100687B6F /* Assets.xcassets in Resources */,
+				5A0D8A671D62BDC9000D57D6 /* Minecraft.ttf in Resources */,
 				5AE084191D61584100687B6F /* Main.storyboard in Resources */,
+				5ACBA3911D65102000FED55B /* TheFightMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABFAD121D694B0D00112129 /* Player.swift in Sources */,
+				5A5B7A7E1D63D4CB00F7B816 /* Character.swift in Sources */,
 				5AE084161D61584100687B6F /* ViewController.swift in Sources */,
 				5AE084141D61584100687B6F /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +304,7 @@
 				5AE084241D61584100687B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
